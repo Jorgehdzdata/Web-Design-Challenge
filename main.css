@@ -43,7 +43,7 @@ body {
   padding: inherit;
   font-weight: bold;
   background-color: rgb(255, 255, 255);
-  font-family: cochin;
+  font-family: emoji, Helvetica, sans-serif;
 }
 .navbar {
   background-color: rgb(255, 255, 255);
@@ -87,39 +87,39 @@ img{
 
 .title {
   color: rgb(52, 149, 165);
-  font-family: cochin;
+  font-family:  emoji, Helvetica, sans-serif;
   font-weight: bolder;
   padding-top: 10px;
 }
 
 p {
 color: rgb(52, 149, 165);
-font-family: 'segoe ui';
+font-family: emoji , Helvetica, sans-serif;
 font-size: 16px;
 }
 
 .box {
   margin-top: 50px;
   margin-bottom: 60px;
-  padding: 10px 30px 10px;
+  padding: 10px 10px 10px;
   color: #ffffff;
   background-color: rgb(255, 255, 255);
 
 }
 
 .table {
-  font-size: 15px;
+  font-size: 18px;
   border-top-color: rgb(255, 255, 255);
 }
 
 footer {
-background-color: #000000;
+background-color: #837979;
 border-top-style: solid;
 border-top-width: 5px;
-border-top-color: rgb(37, 80, 87);
+border-top-color: rgb(31, 141, 158);
 color: rgb(171, 222, 226);
 min-height: 50px;
-font-family: Menlo, Helvetica, sans-serif;
+font-family: emoji, Helvetica, sans-serif;
 font-size: 10px;
 text-align: center;
 position: fixed;
@@ -139,10 +139,11 @@ padding-top: 15px;
   }
   .navbar div {
     margin: inherit;
-    background-color: rgb(255,255,255);
+    background-color: rgb(148, 40, 40);
   }
   .navbar-brand {
     padding: 10px;
+    color:#ffffff;
   }
   button{
     margin-right: 30px;
@@ -164,4 +165,4 @@ API
 Training
 Blog
 About
-Loading complete
+Loading complete``
