@@ -6,25 +6,8 @@ Marketplace
 Explore
  
 @Jorgehdzdata 
-amagsino
-/
-Web-Design-Challenge
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Web-Design-Challenge/main.css
-@amagsino
-amagsino edit file locations
-Latest commit b195467 on Jan 25, 2020
- History
- 1 contributor
-126 lines (114 sloc)  2.17 KB
+
+
    
 body {
   background-image: url("https://i.pinimg.com/originals/28/a2/88/28a288f5675e83c864503fb8c58a2d12.jpg");
@@ -34,33 +17,38 @@ body {
   background-size: cover;
 }
 
-.navbar {
-  max-height: 50px;
+.title {
+  color: rgb(52, 149, 165);
+  font-family:  emoji, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  padding-top: 10px;
 }
 .navigation .navbar-brand {
-  color: rgb(52, 149, 165);
-  margin-left: 0px;
+  color: rgb(47, 199, 223, 0.75);
+  margin-left: 20px;
   padding: inherit;
   font-weight: bold;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(47, 199, 223, 0.75);
   font-family: emoji, Helvetica, sans-serif;
 }
 .navbar {
   background-color: rgb(255, 255, 255);
-  font-size: 25px; 
+  font-size: 15px; 
+  max-height: 40px;
 }
 .active, .dropdown-menu .dropdown-item:active a:hover {
   background-color: rgb(255,255,255);
 }
 .dropdown-item {
-  color: rgba(52, 150, 165, 0.75);
+  color: rgba(47, 199, 223, 0.75);
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: rgba(52, 150, 165, 0.75);
+  background-color: rgba(47, 199, 223, 0.75);
 }
 
 .nav-link:hover {
-  background-color:rgba(52, 150, 165, 0.75);
+  background-color:rgba(47, 199, 223, 0.75);
  }
 
 .navbar-brand:hover {
@@ -85,17 +73,12 @@ img{
   height:50%;
 }
 
-.title {
-  color: rgb(52, 149, 165);
-  font-family:  emoji, Helvetica, sans-serif;
-  font-weight: bolder;
-  padding-top: 10px;
-}
+
 
 p {
 color: rgb(52, 149, 165);
 font-family: emoji , Helvetica, sans-serif;
-font-size: 16px;
+font-size: 14px;
 }
 
 .box {
@@ -103,46 +86,37 @@ font-size: 16px;
   margin-bottom: 60px;
   padding: 10px 10px 10px;
   color: #ffffff;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.945);
 
 }
 
-.table {
+/* .table {
   font-size: 18px;
-  border-top-color: rgb(255, 255, 255);
-}
+  border-top-color: rgb(201, 10, 10);
+} */
 
-footer {
-background-color: #837979;
-border-top-style: solid;
-border-top-width: 5px;
-border-top-color: rgb(31, 141, 158);
-color: rgb(171, 222, 226);
-min-height: 50px;
-font-family: emoji, Helvetica, sans-serif;
-font-size: 10px;
-text-align: center;
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-padding-top: 15px;
-}
 
-@media(max-width: 992px) {
-  .navbar-expand-lg {
-  background-color: #000000;
+
+@media(max-width: 770px) {
+  .navbar-expand-md {
+  background-color: #27a096;
   }
   .navbar {
     max-height: none;
     padding: inherit;
   }
-  .navbar div {
+  /*.navbar div {
     margin: inherit;
     background-color: rgb(148, 40, 40);
+  }*/
+
+  /* @media screen and (min-width: 600px) {
+    .navbar{
+    background-color:rgb(19, 197, 28);
   }
+} */
   .navbar-brand {
-    padding: 10px;
+    padding: 16px;
     color:#ffffff;
   }
   button{
@@ -153,16 +127,21 @@ padding-top: 15px;
     outline: auto 5px;
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete``
+
+
+footer {
+  border-top-style: solid;
+  border-top-width: 4px;
+  background-color: #06948d;
+  border-top-color: rgb(6, 33, 122);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  min-height: 10px;
+  font-family: emoji, Helvetica, sans-serif;
+  font-size: 12px;
+ 
+  }
